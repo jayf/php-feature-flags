@@ -119,8 +119,6 @@ Note that these are used to indicate that the class should:
 * look for URL query parameters named ff
 * look for a client with an IP address of 10.0.0.0
 
-Each method is optional, but if you don't include any method
-
 
 ##Flag Syntax
 
@@ -151,4 +149,4 @@ Elvin,Ringo
 
 ## See Also: Javascript Feature Flags
 
-I've also created a simple Feature Flags fucntion in Javascript, see [Javascript Feature Flags](https://github.com/jayf/javascript-feature-flags). *Note that these two libraries don't have 100% matching flag syntax--that's a TODO. Currently, the PHP library's flag syntax is subset of the JS's.*
+I've also created a simple Feature Flags function in Javascript, see [Javascript Feature Flags](https://github.com/jayf/javascript-feature-flags). *Note that these two libraries don't have 100% matching flag syntax--that's a TODO. Currently, the PHP library's flag syntax is subset of the JS's.*

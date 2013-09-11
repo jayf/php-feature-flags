@@ -151,4 +151,4 @@ Elvin,Ringo
 
 ## See Also: Javascript Feature Flags
 
-I've also created a simple Feature Flags fucntion in Javascript, see [Javascript Feature Flags](https://github.com/jayf/php-feature-flags). *Note that these two libraries don't have 100% matching flag syntax--that's a TODO. Currently, the PHP library's flag syntax is subset of the JS's.*
+I've also created a simple Feature Flags fucntion in Javascript, see [Javascript Feature Flags](https://github.com/jayf/javascript-feature-flags). *Note that these two libraries don't have 100% matching flag syntax--that's a TODO. Currently, the PHP library's flag syntax is subset of the JS's.*

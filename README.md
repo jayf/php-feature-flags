@@ -4,11 +4,11 @@ PHP Feature Flags
 A simple PHP class for setting feature flags via HTTP cookie, URI query parameter or IP address.
 
 
-##What are Feature Flags
+## What are Feature Flags
 
 A *Feature Flag* is a setting you use to turn a feature on or off. This is often used to turn on experimental features in your code, e.g., for testing.
 
-###Example
+### Example
 
 ```php
 if ( $FF->hasFlag('exp') ) {
@@ -18,7 +18,7 @@ if ( $FF->hasFlag('exp') ) {
 }
 ```
 
-##And This Respository Is...
+## And This Respository Is...
 
 This is a PHP class that reads feature flags in URL query strings, browser cookies, and/or client IP address. These are only "on" flags--they do not represent values or states beyond "on".
 
@@ -29,7 +29,7 @@ The function then allows you to test for specific flags being present / on, usin
 Note that this library doesn't help you set flags per se--it just reads them.
 
 
-##Basic Usage
+## Basic Usage
 
 Require this file in your own code:
 
@@ -86,7 +86,7 @@ You also can see if a flag method is active, like so:
     // returns true when flag cookie detected
 ```
 
-##Detect Options
+## Detect Options
 
 In order to detect any flags, you need to tell the class where to look, using an array of options, for example:
 
@@ -120,7 +120,7 @@ Note that these are used to indicate that the class should:
 * look for a client with an IP address of 10.0.0.0
 
 
-##Flag Syntax
+## Flag Syntax
 
 In addition to recognizing that a general flag is present via a cookie, URL query string, or IP address, this class will parse the actual values of the cookie and/or query string, and set these values as specific flags.
 
@@ -129,7 +129,7 @@ Comma-separated values are recognized in both cookies and query strings.
 
 Syntax examples:
 
-###Query Strings
+### Query Strings
 
 All valid:
 
@@ -138,7 +138,7 @@ All valid:
 ?ff=Elvin,Ringo
 ````
 
-###Cookies
+### Cookies
 
 All valid values:
 

@@ -11,8 +11,8 @@ A *Feature Flag* is a setting you use to turn a feature on or off. This is often
 ###Example
 
 ```php
-if ( $FF->hasFlag('crazy') ) {
-    doCrazyExperiment();
+if ( $FF->hasFlag('exp') ) {
+    doExperiment();
 } else {
     doReallySafeStuff();
 }
